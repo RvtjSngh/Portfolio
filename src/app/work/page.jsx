@@ -13,6 +13,24 @@ const page = () => {
   const items = [
     {
       projecttype: "Personal Project",
+      title: "Product Service Application",
+      imgsrc: "/JSpring-Boot.webp",
+      tech: "Java Spring-Boot | AWS | MySQL | Redis",
+      discription:
+        "Developed a Spring Boot-based Product Service with RESTful APIs for efficient CRUD operations, improving data management by 40%. Optimized database interactions using JPA, Hibernate, MySQL (AWS RDS), secured access with AWS security groups, integrated Stripe for payments, and reduced API response time from ~500ms to ~5ms using Redis Cache.",
+      url: "https://github.com/RvtjSngh/ProductService",
+    },
+    {
+      projecttype: "Personal Project",
+      title: "Doctor-Patient Appointment System",
+      imgsrc: "/NodeJS.webp",
+      tech: "NodeJS | ExpressJS | AWS | NoSQL(MongoDB)",
+      discription:
+        "Developed a doctor-patient appointment system with secure scheduling and communication, built on Node.js, Express.js, MongoDB, and AWS. Implemented LinkedIn authentication, real-time audio/video calling (WebRTC, Socket.io), Razorpay payments, and JWT-based security, managing user data via Amazon S3.",
+      url: "https://github.com/RvtjSngh/Appointment-System-Backend",
+    },
+    {
+      projecttype: "Personal Project",
       title: "Apple Landing Page Clone",
       imgsrc: "/applelandingpage.png",
       tech: "Nextjs | SCSS",
@@ -24,8 +42,8 @@ const page = () => {
       projecttype: "zus.network",
       title: "Zus Business Website",
       imgsrc: "/zusnetwork.png",
-      tech: "Nextjs | SCSS | Framer Motion",
-      discription: "Company website revamped using Nextjs & SCSS.",
+      tech: "ReactJS | CSS | Framer Motion",
+      discription: "Company website revamped using ReactJS & CSS.",
       url: "https://zus.network",
     },
   ];
@@ -35,12 +53,14 @@ const page = () => {
       <div className="transform translate-y-[7vh] mx-[1rem] sm:mx-[10rem] text-center">
         <div className="text-[#C5C6C7] font-semibold text-[2rem]">Projects</div>
         <div className="text-[#C5C6C7] text-[1rem] sm:text-[1.5rem] pt-4">
-          Welcome to my Projects Showcase, where I demonstrate my proficiency in
-          creating engaging and user-friendly web experiences. These projects
-          exemplify my expertise in crafting seamless interfaces with a focus on
-          user-centric design principles. Each project below showcases my
-          ability to implement responsive layouts, optimize performance, and
-          deliver an exceptional user experience.
+          Welcome to My Projects Showcase! Here, I demonstrate my expertise in
+          full-stack development, building scalable backend systems and
+          engaging, user-friendly web experiences. My projects highlight
+          proficiency in Java Spring Boot, Node.js, SQL, NoSQL, AWS, React.js,
+          and Next.js, showcasing seamless integration between frontend and
+          backend. Each project reflects my ability to design robust
+          architectures, optimize performance, ensure security, and deliver an
+          exceptional user experience.
         </div>
         <div className="mt-8 sm:mt-20 ">
           {items.map((project, index) => (

@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { FaGithub, FaLinkedin, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 import TypingElement from "./Typingelement";
 
 const Hero = () => {
@@ -11,7 +12,8 @@ const Hero = () => {
           <TypingElement message="Heello There..." />
         </div>
         <p className="text-[1.25rem] md:text-[1.5rem] text-[#C5C6C7]">
-          I am Ravtej, a self-taught Web Developer with a knack for clean code.
+          I’m Ravtej, a Full Stack Developer passionate about writing clean,
+          efficient, and scalable code.
         </p>
       </div>
       <div className="text-center mt-[170px] mx-auto p-4">
@@ -29,6 +31,11 @@ const Hero = () => {
           <div className="mx-auto">
             <a href="https://x.com/RavtejSng">
               <FaTwitter className="w-4 h-4" fill="#66FCF1" />
+            </a>
+          </div>
+          <div className="mx-auto">
+            <a href="https://leetcode.com/u/Ravtej/">
+              <SiLeetcode className="w-4 h-4" fill="#66FCF1" />
             </a>
           </div>
         </div>
